@@ -1,0 +1,37 @@
+.side-bar {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    top: 58px;
+    left: 0;
+    width: 80px;
+    justify-content: center;
+    align-items: center;
+}
+
+.side-bar-link {
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+.side-bar-link:hover {
+    cursor: pointer;
+    background-color: rgb(221, 219, 219);
+}
+
+.side-bar-link img {
+height: 25px;
+margin-bottom: 50px;
+}
+
+.icon-description {
+    position: absolute;
+    font-size: 10px;
+    white-space: nowrap;
+}

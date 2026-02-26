@@ -1,0 +1,75 @@
+.body {
+    font-family: Arial;
+}
+
+.main {
+    padding-top: 80px;
+    padding-left: 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 40px;
+    background-color: rgb(249, 249, 249);
+}
+
+@media (max-width: 870px) {
+    .main {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 1025px) {
+    .main {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+.video-preview {
+   
+}
+
+.p1:hover, 
+.p2:hover {
+cursor: pointer;
+}
+
+.p1 {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.p2 {
+    font-size: 12px;
+    margin-bottom: 0px;
+    color: #606060;
+}
+
+.p3 {
+    margin-top: 0px;
+    padding-top: 5px;
+    color: #606060;
+}
+
+.video-display {
+    position: relative;
+}
+
+.video-time {
+position: absolute;
+right: 10px;
+bottom: 10px;
+background-color: black;
+color: white;
+padding: 4px 7px;
+font-size: 12px;
+border-radius: 2px;
+}
+.thumbnail {
+    width: 100%;
+    position: relative;
+}
+
+.thumbnail:hover {
+    cursor: pointer;
+}
