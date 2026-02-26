@@ -3,9 +3,9 @@
 ## 📖 Table of Contents
 * [Project Overview](#-project-overview)
 * [Technical Features](#-technical-features)
-* [Technologies Used](#-technologies-used)
-* [Data Preview](#-data-preview)
-* [How to Use](#-how-to-use)
+* [Technologies Used](#%EF%B8%8F-technologies-used)
+* [Data Preview](#%EF%B8%8F-data-preview)
+* [How to Use](#%EF%B8%8F-how-to-use)
 
 ---
 
